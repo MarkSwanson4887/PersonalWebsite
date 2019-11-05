@@ -9,6 +9,28 @@ html {
     overflow: hidden;
 }
 
+/*-----Keyframes-----*/
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
 p {
     color: white;
 }
@@ -48,9 +70,15 @@ p {
     font-size: calc(50px + 1.5vw);
     margin-bottom: 0%;
     margin-top: 0%;
+    -webkit-animation: fadein 2s; 
+    -moz-animation: fadein 2s; 
+    -ms-animation: fadein 2s; 
+    -o-animation: fadein 2s;
+    animation: fadein 2s;
 
 }
 .about {
+    opacity: 0;
     padding: 2px;
     font-style: italic;
     margin-top: 0%;
@@ -59,8 +87,16 @@ p {
     margin-right: auto;
     font-family: Verdana;
     text-align:center;
+    -webkit-animation: fadein 2s; 
+    -moz-animation: fadein 2s; 
+    -ms-animation: fadein 2s; 
+    -o-animation: fadein 2s;
+    animation: fadein 2s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
 }
 .currTitle {
+    opacity: 0;
     font-style: italic;
     padding: 2px;
     margin-top: 0%;
@@ -69,6 +105,13 @@ p {
     margin-right: auto;
     font-family: Verdana;
     text-align:center;
+    -webkit-animation: fadein 2s; 
+    -moz-animation: fadein 2s; 
+    -ms-animation: fadein 2s; 
+    -o-animation: fadein 2s;
+    animation: fadein 2s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
 }
 
 /*-------Links-------*/
@@ -86,6 +129,7 @@ a:hover {
 /*------Resume------*/
 
 .center{
+    opacity: 0;
     display: inline-block;
     text-align: center;
     align-items: center;
@@ -94,6 +138,13 @@ a:hover {
     width: auto;
     height: auto;
     overflow: hidden;
+    -webkit-animation: fadein 2s; 
+    -moz-animation: fadein 2s; 
+    -ms-animation: fadein 2s; 
+    -o-animation: fadein 2s;
+    animation: fadein 2s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
 }
 
 a.resumeLink {
@@ -126,6 +177,7 @@ img {
     max-height: 22%;
 }
 .row {
+    opacity:0;
     margin-right: auto;
     margin-left: auto;
     width:50%;
@@ -133,6 +185,13 @@ img {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    -webkit-animation: fadein 2s; 
+    -moz-animation: fadein 2s; 
+    -ms-animation: fadein 2s; 
+    -o-animation: fadein 2s;
+    animation: fadein 2s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
 }
 .column {
     float: left;
