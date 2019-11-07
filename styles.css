@@ -67,7 +67,7 @@ p {
     text-align: center;
     font-family: sans-serif;
     color: white;
-    font-size: calc(50px + 1.5vw);
+    font-size: calc(50px + 1vw);
     margin-bottom: 0%;
     margin-top: 0%;
     -webkit-animation: fadein 2s; 
@@ -82,7 +82,7 @@ p {
     padding: 2px;
     font-style: italic;
     margin-top: 0%;
-    font-size: calc(10px + 1vw);
+    font-size: calc(8px + 1vw);
     margin-left: auto;
     margin-right: auto;
     font-family: Verdana;
@@ -100,7 +100,7 @@ p {
     font-style: italic;
     padding: 2px;
     margin-top: 0%;
-    font-size: calc(10px + 1vw);
+    font-size: calc(8px + 1vw);
     margin-left: auto;
     margin-right: auto;
     font-family: Verdana;
@@ -118,7 +118,7 @@ p {
 
 a {
     font-family: Arial; 
-    font-size: calc(10px + 1vw);
+    font-size: calc(8px + 1vw);
     color:white;
     text-decoration: none;
 }
@@ -173,8 +173,8 @@ img {
     margin-bottom: 0;
     margin-left: auto;
     margin-right: auto;
-    max-width: 22%;
-    max-height: 22%;
+    max-width: 25%;
+    max-height: 25%;
 }
 .row {
     opacity:0;
